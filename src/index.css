@@ -4,5 +4,6 @@ body{
   max-width: 1440px;
   margin: 0 auto;
   background-color: #fbf6f0;
+  font-family: "DM Sans", sans-serif;
   @apply px-1.5 sm:px-5 md:px-10 lg:px-24
 }
