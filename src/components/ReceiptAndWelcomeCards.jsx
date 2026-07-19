@@ -55,7 +55,17 @@ const ReceiptAndWelcomeCards = () => {
                 </div>
             </div>
         </div>
-        
+        <div className='rounded-2xl p-3 bg-[#9e3e1d] flex flex-col w-full'>
+            <div className='flex justify-between border-t border-dashed border-gray-300 py-3 mb-5'>
+                <span className='text-gray-300 text-sm'>WELCOME CARD</span>
+                <img src={sun} alt="" className=''/>
+            </div>
+            <span className='font-["Fraunces"] text-[#f2b23a] text-2xl font-semibold'>A note from your host,</span>
+            <h1 className='font-["Fraunces"] font-semibold text-3xl text-gray-50 mt-2'>Margaux.</h1>
+            <p className='text-gray-300 mt-6'>We're so glad you're coming. The shutters will be open, the lemonade cold, and the cat - Poivre - pretending not to notice you.</p>
+            <span className='text-gray-300 mt-20 text-sm'>ROOM</span>
+            <span className='font-["Fraunces"] text-2xl text-gray-50'>La Garrigue</span>
+        </div>
     </div>
   )
 }
