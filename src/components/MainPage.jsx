@@ -1,5 +1,6 @@
 import React from 'react'
 import ReceiptAndWelcomeCards from './ReceiptAndWelcomeCards'
+import Benefits from './Benefits'
 
 const MainPage = () => {
   return (
@@ -18,7 +19,7 @@ const MainPage = () => {
         </div>
       </div>
       <ReceiptAndWelcomeCards />
-      <div></div>
+      <Benefits />
     </div>
   )
 }
